@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/fragment_detail_textview"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="90dp"
+        android:text="정보를 받아오고 있습니다."
+        android:textAlignment="center"
+        android:textColor="#707070"
+        android:textSize="21sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/fragment_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:srcCompat="@drawable/background" />
+
+        <TextView
+            android:id="@+id/fragment_count_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignBottom="@id/fragment_background"
+            android:layout_alignLeft="@id/fragment_background"
+            android:layout_alignRight="@id/fragment_background"
+            android:layout_alignTop="@id/fragment_background"
+            android:gravity="center"
+            android:text=" ? "
+            android:textColor="#705baf"
+            android:textSize="80sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/popupbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:shadowColor="#ffffff" />
+
+
+</LinearLayout>

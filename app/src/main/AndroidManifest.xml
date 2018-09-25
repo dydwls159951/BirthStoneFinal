@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.perples.recosample">
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="23" />
+
+    <!-- These permissions are required to use bluetooth -->
+    <!-- 블루투스 기능을 사용하기 위해 필요한 권한입니다. -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.bluetooth_le"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.perples.birthstone.LoginActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.perples.birthstone.Pregnant.MainPregnantActivity" />
+        <activity android:name="com.perples.birthstone.General.MainGeneralActivity" />
+        <activity android:name="com.perples.birthstone.General.SelectSeat" />
+
+        <service android:name="com.perples.recosdk.RECOBeaconService" />
+        <service android:name="com.perples.birthstone.Service.RecoBackgroundMonitoringService" />
+
+        <activity android:name="com.perples.birthstone.Pregnant.PregnantSelectSeat" />
+        <activity android:name="com.perples.birthstone.Pregnant.Waiting" />
+        <activity android:name="com.perples.birthstone.General.WaitConfirm" />
+        <activity android:name="com.perples.birthstone.General.Confirm"></activity>
+    </application>
+
+</manifest>

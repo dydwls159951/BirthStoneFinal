@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="300dip"
+        android:layout_height="wrap_content"
+        android:background="@drawable/trainnum_bg"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_title"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/da_general_title_bg"
+            android:gravity="center"
+            android:text="탄생석 요청"
+            android:textColor="@android:color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_content"
+            android:layout_width="fill_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:text="탄생석이 필요합니다.
+도와주시겠어요?"
+            android:textColor="#707070"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_left"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:text="수락"
+                android:textColor="#9ac9e9"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/btn_right"
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:background="@android:color/transparent"
+                android:text="취소"
+                android:textColor="#9ac9e9"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

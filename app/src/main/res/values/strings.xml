@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">탄생석 합본팩</string>
+    <string name="prompt_email">아이디를 입력하세요.</string>
+    <string name="prompt_password">비밀번호를 입력하세요.</string>
+    <string name="action_sign_in">로그인</string>
+    <string name="action_sign_up">회원가입</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_allow">탄생석 요청</string>
+    <string name="text_near_people">주변에 사람이 있습니다.</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions."</string>
+    <string name="settings">Current Settings</string>
+    <string name="settings_regions">Regions</string>
+    <string name="settings_recoonly">RECO Only</string>
+    <string name="settings_discontinouos">Discontinuous Scan</string>
+    <string name="settings_backgroundtimeout">Background Ranging Timeout</string>
+    <string name="settings_result_true">True</string>
+    <string name="settings_result_false">False</string>
+
+    <string name="background_monitoring">Background Monitoring</string>
+    <string name="background_ranging">Background Ranging</string>
+
+    <string name="start_monitoring">Start Monitoring</string>
+    <string name="start_ranging">Start Ranging</string>
+
+    <string name="temp">xxxxx</string>
+    <string name="major_label">Maj: </string>
+    <string name="minor_label">Min: </string>
+    <string name="tx_label">Tx: </string>
+    <string name="rssi_label">RSSI: </string>
+    <string name="battery_label">Battery: </string>
+    <string name="proximity_label">Proximity: </string>
+    <string name="accuracy_label">meters</string>
+    <string name="millivolt">mV</string>
+
+    <string name="location_permission_granted">Location permission has been granted. RECO SDK can now work properly.</string>
+    <string name="location_permission_not_granted">Location permission for this application is denied. RECO SDK may not work properly.</string>
+    <string name="location_permission_rationale">Location permission is needed to monitor or range beacons.</string>
+
+    <string name="ok">OK</string>
+    <string name="dialog_popup">똘똘맘님이 탄생석이 필요해요. 도와주시겠어요?</string>
+    <string name="accept">네, 좋아요!</string>
+    <string name="cancel">다음 기회에요.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todo">TODO</string>
+    <string name="emoticon_button">이모티콘 발행</string>
+</resources>
